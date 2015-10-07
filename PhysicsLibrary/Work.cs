@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Calculator
+namespace PhysicsLibrary
 {
-    class Work
+    public class Work
     {
         private double _value;
 

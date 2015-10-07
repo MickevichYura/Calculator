@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F5E0B820-B81B-47B3-BCEB-59482DC3A375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsLibrary", "PhysicsLibrary\PhysicsLibrary.csproj", "{95A7C8E7-2E67-4D64-899A-9BCEF625034C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{F5E0B820-B81B-47B3-BCEB-59482DC3A375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E0B820-B81B-47B3-BCEB-59482DC3A375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E0B820-B81B-47B3-BCEB-59482DC3A375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A7C8E7-2E67-4D64-899A-9BCEF625034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A7C8E7-2E67-4D64-899A-9BCEF625034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A7C8E7-2E67-4D64-899A-9BCEF625034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A7C8E7-2E67-4D64-899A-9BCEF625034C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

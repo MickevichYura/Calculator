@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Calculator
+namespace PhysicsLibrary
 {
-    internal class Time
+    public class Time
     {
         private double _value;
 
