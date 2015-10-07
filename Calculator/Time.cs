@@ -1,5 +1,4 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    internal class Length
+    internal class Time
     {
         private double _value;
 
@@ -16,26 +15,26 @@ namespace Calculator
             get { return _value; }
         }
 
-        private String measure = "m";
+        private String measure = "s";
 
-        public Length(double value)
+        public Time(double value)
         {
             _value = value;
         }
 
-        public static Length operator +(Length a, Length b)
+        public static Time operator +(Time a, Time b)
         {
-            return new Length(a._value + b._value);
+            return new Time(a._value + b._value);
         }
 
-        public static Length operator -(Length a, Length b)
+        public static Time operator -(Time a, Time b)
         {
-            return new Length(a._value - b._value);
+            return new Time(a._value - b._value);
         }
 
-        public static Square operator *(Length a, Length b)
+        public static Velocity operator /(Length a, Time b)
         {
-            return new Square(a._value * b._value);
+            return new Velocity(a.Value * b.Value);
         }
 
         public override string ToString()

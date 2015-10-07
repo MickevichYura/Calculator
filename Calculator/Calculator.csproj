@@ -41,11 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acceleration.cs" />
+    <Compile Include="Force.cs" />
     <Compile Include="Length.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Mass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Puls.cs" />
     <Compile Include="Square.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Velocity.cs" />
     <Compile Include="Volume.cs" />
+    <Compile Include="Work.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -8,10 +8,16 @@ namespace Calculator
 {
     internal class Volume
     {
-        private int _value;
+        private double _value;
+
+        public double Value
+        {
+            get { return _value; }
+        }
+
         private String measure = "m^3";
 
-        public Volume(int value)
+        public Volume(double value)
         {
             _value = value;
         }

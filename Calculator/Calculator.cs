@@ -13,14 +13,14 @@ namespace Calculator
             Length length = new Length(2);
             Square square = new Square(4);
             Volume volume = new Volume(8);
+            Time time = new Time(10);
+            Mass mass = new Mass(30);
+            Velocity velocity = length / time;
+            Force force = new Force(100);
+            Puls puls = new Puls(10);
 
-            Console.WriteLine(length + length);
-            Console.WriteLine(length - length);
-            Console.WriteLine(length * length);
-            Console.WriteLine(length * length * length);
-            Console.WriteLine(square * length);
-            Console.WriteLine(length * square);
-            Console.WriteLine(volume / square);
+            Console.WriteLine(mass * velocity / time * length);
+            Console.WriteLine(puls / force);
 
             Console.Read();
         }

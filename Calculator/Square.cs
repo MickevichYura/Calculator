@@ -8,16 +8,16 @@ namespace Calculator
 {
     internal class Square
     {
-        private int _value;
+        private double _value;
 
-        public int Value
+        public double Value
         {
             get { return _value; }
         }
 
         private String measure = "m^2";
 
-        public Square(int value)
+        public Square(double value)
         {
             _value = value;
         }
